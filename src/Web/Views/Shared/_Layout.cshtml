@@ -37,6 +37,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Responses
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="Index">Index of Dogs</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="TextResponse">Text Response</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="HTMLResponse">HTML Response</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="JSONResponse">JSON Response</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="BacktoHomeResponse">To Another Action</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="PageResponse">Web Page Response</a>
+
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
