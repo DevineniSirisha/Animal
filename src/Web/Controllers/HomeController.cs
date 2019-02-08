@@ -14,6 +14,11 @@ namespace Web.Controllers
         {
             return View();
         }
+        public IActionResult Breeds()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
