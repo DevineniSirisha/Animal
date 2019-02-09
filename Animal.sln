@@ -5,15 +5,15 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0ECAE4C4-A438-4D3A-BBF8-DADFF0B17487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web.csproj", "{D9996CC2-C137-4F24-BE63-21E49AE4A6C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Web\Web.csproj", "{D9996CC2-C137-4F24-BE63-21E49AE4A6C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{06E9832B-CEB3-48D6-8E17-25F312F477F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalTests", "tests\FunctionalTests\FunctionalTests.csproj", "{026C8C1E-5A15-4C30-9641-3473CB155816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalTests", "tests\FunctionalTests\FunctionalTests.csproj", "{026C8C1E-5A15-4C30-9641-3473CB155816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "tests\IntegrationTests\IntegrationTests.csproj", "{3D0A81C3-8A3F-45B8-BA83-1D44864890E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "tests\IntegrationTests\IntegrationTests.csproj", "{3D0A81C3-8A3F-45B8-BA83-1D44864890E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{920FDA77-4F74-4F74-BF2E-7F408B5EEB10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{920FDA77-4F74-4F74-BF2E-7F408B5EEB10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D9996CC2-C137-4F24-BE63-21E49AE4A6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -77,10 +74,16 @@ Global
 		{920FDA77-4F74-4F74-BF2E-7F408B5EEB10}.Release|x86.ActiveCfg = Release|Any CPU
 		{920FDA77-4F74-4F74-BF2E-7F408B5EEB10}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D9996CC2-C137-4F24-BE63-21E49AE4A6C2} = {0ECAE4C4-A438-4D3A-BBF8-DADFF0B17487}
 		{026C8C1E-5A15-4C30-9641-3473CB155816} = {06E9832B-CEB3-48D6-8E17-25F312F477F0}
 		{3D0A81C3-8A3F-45B8-BA83-1D44864890E1} = {06E9832B-CEB3-48D6-8E17-25F312F477F0}
 		{920FDA77-4F74-4F74-BF2E-7F408B5EEB10} = {06E9832B-CEB3-48D6-8E17-25F312F477F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38C83869-A1A5-4AFB-A3BB-CD27BFFED0FC}
 	EndGlobalSection
 EndGlobal
